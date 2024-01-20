@@ -10,6 +10,7 @@ The world needs more [code quality tools](https://www.pathsensitive.com/2021/03/
 
 - Use C# attributes to decorate methods and classes.
 - The attributes construct a risk or requirement tree that is checked at compile time.
+- Use Hoare triples from formal methods. 
 - At runtime, precondition and postcondition methods can run which either assert/throw or return certain values. These can be linked to requirements.
 - Annotations can also provide links from line(s) of code to detailed comments, keeping the call site clean. 
 
