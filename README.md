@@ -23,12 +23,12 @@ The world needs more [code quality tools](https://www.pathsensitive.com/2021/03/
 
 These could become the project name or names used in the design.
 
-NReq - "requirement"
-NQuire - "enquire"
-NDesign - Adobe might not like it
-NTerpret ([Ladin](https://en.wiktionary.org/wiki/nterpret) word for interpreter)
-NFlect - "reflection"
-NOtate - "annotate"
-NState (taken, open source project)
-NRisk (taken, enterprise product)
+- NReq - "requirement"
+- NQuire - "enquire"
+- NDesign - Adobe might not like it
+- NTerpret ([Ladin](https://en.wiktionary.org/wiki/nterpret) word for interpreter)
+- NFlect - "reflection"
+- NOtate - "annotate"
+- NState (taken, open source project)
+- NRisk (taken, enterprise product)
 
