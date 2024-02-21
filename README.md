@@ -96,7 +96,7 @@ public void DivideByZero_DoesNotThrow(int a, int b, int want)
 
 Mitigate the risk with a precondition:
 
-```sharp
+```csharp
 public class StrictCalculator : ICalculator
 {
   /// <summary>
