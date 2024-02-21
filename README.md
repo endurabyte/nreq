@@ -176,6 +176,7 @@ I worked at another company that annotated unit tests with requirement attribute
 - Add analyzers. For example, warn of unimplemented requirements or unmitigated risks.
 - When tests fail, make note of associated requirements or risks.
 - Requirement tree
+- Publish NuGet package
  
 ## Non goals
 
