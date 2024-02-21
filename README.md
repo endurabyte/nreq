@@ -96,7 +96,7 @@ public void DivideByZero_DoesNotThrow(int a, int b, int want)
 
 Mitigate the risk with a precondition:
 
-```
+```sharp
 public class StrictCalculator : ICalculator
 {
   /// <summary>
@@ -140,24 +140,22 @@ public class BuggyCalculator : ICalculator
 
 ```
 
-## Softwware Artifacts
+## Software Artifacts
 
 NReq recognizes four kinds of software artifacts. Artifacts can be positive or negative, and they can be visible or invisible:
 
-     | Visible | Invisible
-     |---------|----------
-Good | Feature | Design
-Bad  |	Bug    | Tech debt
+     | Visible | Invisible |
+     |---------|-----------|
+Good | Feature | Design    |
+Bad  |	Bug    | Tech debt |
 
 With NReq you can...
 
 - Name and track positive artifacts: features and design decisions.
 - Name and track negative artifacts: bugs and tech debt.
 - Name and track requirements and risks.
-- Name and track design decisions, much like an 
+- Name and track design decisions, much like an [ADR](https://adr.github.io/), but they are right next to your code.
 - Describe program logic in the form of preconditions and postconditions
-
-Some people track design decisions an [ADR](https://adr.github.io/), but it won't be in your code.
 
 ## Philosophy
 
