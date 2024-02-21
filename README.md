@@ -145,7 +145,7 @@ public class BuggyCalculator : ICalculator
 NReq recognizes four kinds of software artifacts. Artifacts can be positive or negative, and they can be visible or invisible:
 
 |      | Visible | Invisible |
-|      |---------|-----------|
+|:----:|:-------:|:---------:|
 | Good | Feature | Design    |
 | Bad  | Bug     | Tech debt |
 
