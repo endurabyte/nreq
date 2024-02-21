@@ -123,8 +123,7 @@ public void DivideByZero_Throws(int a, int b)
 
 ## Example: Annotate buggy code
 
-```charp
-
+```csharp
 public class FlippedDivisorDividendBug : Bug
 {
   public override string Description => "The divisor and dividend are flipped in this implementation. " +
