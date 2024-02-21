@@ -31,4 +31,5 @@ These could become the project name or names used in the design.
 - NOtate - "annotate"
 - NState (taken, open source project)
 - NRisk (taken, enterprise product)
+- NSpec (taken, open source project)
 
