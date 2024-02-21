@@ -163,7 +163,7 @@ Whatever isn't in the code gets lost. There are plenty of project management too
 
 People talk about implicit or tacit knowledge that gets lost when developers leave. When the code is all that is left, it's hard to change because you don't know the string of decisions.
 
-By embedding the ([design in the code](https://www.pathsensitive.com/2018/01/the-design-of-software-is-thing-apart.html)), you can be confident the design will remain available.
+By embedding the [design in the code](https://www.pathsensitive.com/2018/01/the-design-of-software-is-thing-apart.html), you can be confident the design will remain available.
 
 I once worked at a company that got attacked by ransomware. A decade of completed stories, bug trackers, builds, and test runs were lost. All that remained were the `.git` folders on the developers' workstations. The company is still in business thanks to those folders.
 
