@@ -2,7 +2,7 @@
 
 namespace Calculators.Design.Decision;
 
-public class ThreeExampleCalculatorsDecision : NReq.Design.Decision
+public class DD2_ThreeExampleCalculatorsDecision : NReq.Design.Decision
 {
   public override DecisionStatus Status => DecisionStatus.Accepted;
 

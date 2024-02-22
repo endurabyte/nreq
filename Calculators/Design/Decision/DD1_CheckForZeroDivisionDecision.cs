@@ -5,7 +5,7 @@ using NReq.Risk;
 namespace Calculators.Design.Decision;
 
 [MitigatesRisk<DivideByZeroRisk>()]
-public class CheckForZeroDivisionDecision : NReq.Design.Decision
+public class DD1_CheckForZeroDivisionDecision : NReq.Design.Decision
 {
   public override DecisionStatus Status => DecisionStatus.Accepted;
 
