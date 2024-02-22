@@ -1,6 +1,10 @@
+<img src="icon.png" style="width:400px"/>
+
 # NReq
 
 NReq lets you keep track of software artifacts in your code. 
+
+[![Nuget Badge](https://buildstats.info/nuget/nreq)](https://www.nuget.org/packages/nreq)
 
 ## Features
 
