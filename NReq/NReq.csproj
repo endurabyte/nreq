@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <PackageId>NReq</PackageId>
-    <Version>1.2.1</Version>
+    <Version>1.2.3</Version>
     <Authors>Doug Slater</Authors>
     <Description>Code-first design, logic, risk, and requirement annotations</Description>
-    <PackageProjectUrl>https://github.com/nref/nreq</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/nref/nreq</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/endurabyte/nreq</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/endurabyte/nreq</RepositoryUrl>
     <Copyright>2024 Doug Slater</Copyright>
     <PackageTags>Requirements Risk Design</PackageTags>
     <PackageIconUrl>icon.png</PackageIconUrl>
