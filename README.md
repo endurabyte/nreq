@@ -148,7 +148,7 @@ public class BuggyCalculator : ICalculator
 
 ```
 
-## Export Requirements to Markdown
+## Export Design Decisions to Markdown
 
 `reqs --outDir .\DocGen\Specs\ --assemblies .\Calculators\bin\Debug\net8.0\Calculators.dll`
 
@@ -185,7 +185,7 @@ The implementation shall check for zero division. If so, it will return 0.
 - The user not have to catch DivideByZeroException
 ```
 
-## Export Design Decisions to Markdown
+## Export Requirements to Markdown
 
 `NReq.Cli.exe decisions --outDir .\DocGen\Decisions\ --assemblies .\Calculators\bin\Debug\net8.0\Calculators.dll`
 
