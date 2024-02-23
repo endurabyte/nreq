@@ -9,7 +9,7 @@ Logo: A wrecked N. Get it?
 
 Using attributes, `NReq` lets you define and manage software artifacts such as requirements in your code. This stands in contrast to using an external tracking tool like Azure DevOps or Jira. 
 
-Then, in code you can map the requirements to their implementing code. Using your favorite test framework, you can run unit test that verify that the all requirements are met. Finally, you can export the artifacts as markdown.
+Then, in code you can map the requirements to the code that satifies them. Using your favorite test framework, you can run unit test that verify that the all requirements are met. Finally, you can export the artifacts as markdown.
 
 ## License
 
@@ -23,7 +23,7 @@ If your project has a copyleft license, for example GPLv3, or your company gross
 
 If either the project does not have a copyleft license or your company grosses more than $1 million USD annually, you **must purchase a commercial license**.
 
-We expect `NReq` to bring sigificant, quantifiable value to your enterprise projects. Purchasing a license also enables us to offer dedicated professional support.
+We expect `NReq` to bring sigificant, quantifiable value to your enterprise projects. The largest projects benefit the most from the rigor of treating requirements, risks, design, and more as formal artifacts. Purchasing a license also enables us to offer you dedicated professional support.
 
 Pricing table is below. Please [contact us](mailto:sales@endurabyte.com) to request a quote.
 
