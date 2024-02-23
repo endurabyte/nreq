@@ -25,7 +25,7 @@ If either the project does not have a copyleft license or your company grosses m
 
 We expect `NReq` to bring sigificant, quantifiable value to your enterprise projects. Purchasing a license also enables us to offer dedicated professional support.
 
-Pricing table is below. Please [contact us](admin@endurabyte.com) to request a quote.
+Pricing table is below. Please [contact us](mailto:sales@endurabyte.com) to request a quote.
 
 | Your License | Company Revenue | Our License | Support     | Price
 |--------------|-----------------|-------------|-------------|--------------
