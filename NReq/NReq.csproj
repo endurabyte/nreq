@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>NReq</PackageId>
-    <Version>1.1.0</Version>
+    <Version>1.2.1</Version>
     <Authors>Doug Slater</Authors>
     <Description>Code-first design, logic, risk, and requirement annotations</Description>
     <PackageProjectUrl>https://github.com/nref/nreq</PackageProjectUrl>

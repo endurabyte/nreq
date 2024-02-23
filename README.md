@@ -13,21 +13,22 @@ Then, in code you can map the requirements to their implementing code. Using you
 
 ## License
 
-`NReq` is dual-licensed: either *community* or *enterprise*.
+`NReq` is dual-licensed: either *community* or *commercial*.
 
 ### Community License (GPL)
 
 If your project has a copyleft license, for example GPLv3, or your company grosses less than $1 million USD annually, you may use `NReq` free of charge under the GPLv3 license. 
 
-### Enterprise License (Paid)
+### Commercial License (Paid)
 
-If either the project does not have a copyleft license or your company more than $1 million USD annually, you **must purchase a commercial license**.
+If either the project does not have a copyleft license or your company grosses more than $1 million USD annually, you **must purchase a commercial license**.
 
 We expect `NReq` to bring sigificant, quantifiable value to your enterprise projects. Purchasing a license also enables us to offer dedicated professional support.
 
 Pricing table is below. Please [contact us](admin@endurabyte.com) to request a quote.
 
 | Your License | Company Revenue | Our License | Support     | Price
+|--------------|-----------------|-------------|-------------|--------------
 | Copyleft     | < $1M/year      |  GPLv3      | Best Effort | $0
 | Copyleft     | >= $1M/year     |  Commercial | Dedicated   | $200/year/seat
 | Other        | Any             |  Commercial | Dedicated   | $200/year/seat
