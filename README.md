@@ -175,10 +175,10 @@ public class BuggyCalculator : ICalculator
 
 ## Export Design Decisions to Markdown
 
-`reqs --outDir .\DocGen\Specs\ --assemblies .\Calculators\bin\Debug\net8.0\Calculators.dll`
+`nreq reqs --outDir .\DocGen\Specs\ --assemblies .\Calculators\bin\Debug\net8.0\Calculators.dll`
 
 ```powershell
-PS F:\repos\nreq> ls .\DocGen\Decisions\
+> ls .\DocGen\Decisions\
 
     Directory: F:\repos\nreq\DocGen\Decisions
 
@@ -189,7 +189,7 @@ Mode                 LastWriteTime         Length Name
 ```
 
 ```powershell
-PS F:\repos\nreq> cat .\DocGen\Decisions\DD1_CheckForZeroDivisionDecision.md
+> cat .\DocGen\Decisions\DD1_CheckForZeroDivisionDecision.md
 # DD1_CheckForZeroDivisionDecision
 
 ## Status
@@ -212,10 +212,10 @@ The implementation shall check for zero division. If so, it will return 0.
 
 ## Export Requirements to Markdown
 
-`NReq.Cli.exe decisions --outDir .\DocGen\Decisions\ --assemblies .\Calculators\bin\Debug\net8.0\Calculators.dll`
+`nreq decisions --outDir .\DocGen\Decisions\ --assemblies .\Calculators\bin\Debug\net8.0\Calculators.dll`
 
 ```powershell
-PS F:\repos\nreq> ls .\DocGen\Specs\Reqs
+> ls .\DocGen\Specs\Reqs
 
     Directory: F:\repos\nreq\DocGen\Specs\Reqs
 
@@ -228,7 +228,7 @@ Mode                 LastWriteTime         Length Name
 ```
 
 ```powershell 
-PS F:\repos\nreq> cat .\DocGen\Specs\Implementations\ICalculator.md
+> cat .\DocGen\Specs\Implementations\ICalculator.md
 # ICalculator
 
 ## Implements
