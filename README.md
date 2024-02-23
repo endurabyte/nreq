@@ -1,13 +1,37 @@
 <img src="icon.png" style="width:400px"/>
 Logo: A wrecked N. Get it?
 
+[![Nuget Badge](https://buildstats.info/nuget/nreq)](https://www.nuget.org/packages/nreq)
+
 # NReq
+
+`NReq` is software library for QA (quality assurance).
 
 Using attributes, `NReq` lets you define and manage software artifacts such as requirements in your code. This stands in contrast to using an external tracking tool like Azure DevOps or Jira. 
 
 Then, in code you can map the requirements to their implementing code. Using your favorite test framework, you can run unit test that verify that the all requirements are met. Finally, you can export the artifacts as markdown.
 
-[![Nuget Badge](https://buildstats.info/nuget/nreq)](https://www.nuget.org/packages/nreq)
+## License
+
+`NReq` is dual-licensed: either *community* or *enterprise*.
+
+### Community License (GPL)
+
+If your project has a copyleft license, for example GPLv3, or your company grosses less than $1 million USD annually, you may use `NReq` free of charge under the GPLv3 license. 
+
+### Enterprise License (Paid)
+
+If either the project does not have a copyleft license or your company more than $1 million USD annually, you **must purchase a commercial license**.
+
+We expect `NReq` to bring sigificant, quantifiable value to your enterprise projects. Purchasing a license also enables us to offer dedicated professional support.
+
+Pricing table is below. Please [contact us](admin@endurabyte.com) to request a quote.
+
+| Your License | Company Revenue | Our License | Support     | Price
+| Copyleft     | < $1M/year      |  GPLv3      | Best Effort | $0
+| Copyleft     | >= $1M/year     |  Commercial | Dedicated   | $200/year/seat
+| Other        | Any             |  Commercial | Dedicated   | $200/year/seat
+
 
 ## Features
 
