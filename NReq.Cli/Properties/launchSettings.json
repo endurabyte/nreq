@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "Get Design Decisions": {
+      "commandName": "Project",
+      "commandLineArgs": "decisions --outDir .\\DocGen\\Decisions\\ --assemblies .\\Calculators\\bin\\Debug\\net8.0\\Calculators.dll",
+      "workingDirectory": "$(SolutionDir)"
+    },
+    "Get Requirements": {
+      "commandName": "Project",
+      "commandLineArgs": "reqs --outDir .\\DocGen\\Specs\\ --assemblies .\\Calculators\\bin\\Debug\\net8.0\\Calculators.dll",
+      "workingDirectory": "$(SolutionDir)"
+    }
+  }
+}

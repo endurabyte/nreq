@@ -15,4 +15,4 @@ public class AddMethod
     int got = calc.Add(1, 2);
     Assert.That(got, Is.EqualTo(3));
   }
-}  
+}

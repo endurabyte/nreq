@@ -4,5 +4,5 @@ namespace Calculators.Spec;
 
 public class MultiplyRequirement : Requirement
 {
-  public override string Description { get; } = "Shall multiply two integrs";
+  public override string Description { get; } = "Shall multiply two integers";
 }
