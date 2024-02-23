@@ -3,7 +3,9 @@ Logo: A wrecked N. Get it?
 
 # NReq
 
-NReq lets you keep track of software artifacts in your code. 
+Using attributes, `NReq` lets you define and manage software artifacts such as requirements in your code. This stands in contrast to using an external tracking tool like Azure DevOps or Jira. 
+
+Then, in code you can map the requirements to their implementing code. Using your favorite test framework, you can run unit test that verify that the all requirements are met. Finally, you can export the artifacts as markdown.
 
 [![Nuget Badge](https://buildstats.info/nuget/nreq)](https://www.nuget.org/packages/nreq)
 
@@ -11,8 +13,10 @@ NReq lets you keep track of software artifacts in your code.
 
 - Define natural language descriptions of your software artifacts, right in the code. 
   - Example software artifacts: features, bugs, design decisions, tech debt, requirements, risks, preconditions, postconditions.
-- Use code navigation e.g. `Go To Definition/Implementation`, `Find All References` to navigate software artifacts.
-- No runtime overhead. 
+- Use code navigation e.g. `Go To Definition/Implementation`, `Find All References` to navigate artifacts.
+- Verify with unit tests that requirements are met and risks are mitigated
+- Export artifacts to markdown
+- No runtime overhead
 
 ## Example
 
@@ -144,6 +148,72 @@ public class BuggyCalculator : ICalculator
 
 ```
 
+## Export Requirements to Markdown
+
+`reqs --outDir .\DocGen\Specs\ --assemblies .\Calculators\bin\Debug\net8.0\Calculators.dll`
+
+```powershell
+PS F:\repos\nreq> ls .\DocGen\Decisions\
+
+    Directory: F:\repos\nreq\DocGen\Decisions
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           2/23/2024    09:13            386 DD1_CheckForZeroDivisionDecision.md
+-a---           2/23/2024    09:13            430 DD2_ThreeExampleCalculatorsDecision.md
+```
+
+```powershell
+PS F:\repos\nreq> cat .\DocGen\Decisions\DD1_CheckForZeroDivisionDecision.md
+# DD1_CheckForZeroDivisionDecision
+
+## Status
+
+Accepted
+
+## Context
+
+It's possible to divide by zero. Without mitigation, a DivideByZeroException will be thrown.
+
+## Decision
+
+The implementation shall check for zero division. If so, it will return 0.
+
+## Consequences
+
+- The user will have to handle the possibility of 0 being returned
+- The user not have to catch DivideByZeroException
+```
+
+## Export Design Decisions to Markdown
+
+`NReq.Cli.exe decisions --outDir .\DocGen\Decisions\ --assemblies .\Calculators\bin\Debug\net8.0\Calculators.dll`
+
+```powershell
+PS F:\repos\nreq> ls .\DocGen\Specs\Reqs
+
+    Directory: F:\repos\nreq\DocGen\Specs\Reqs
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           2/23/2024    09:21             58 AddRequirement.md
+-a---           2/23/2024    09:21             64 DivideRequirement.md
+-a---           2/23/2024    09:21             68 MultiplyRequirement.md
+-a---           2/23/2024    09:21             68 SubtractRequirement.md
+```
+
+```powershell 
+PS F:\repos\nreq> cat .\DocGen\Specs\Implementations\ICalculator.md
+# ICalculator
+
+## Implements
+
+- Calculators.ICalculator.Add
+- Calculators.ICalculator.Subtract
+- Calculators.ICalculator.Multiply
+- Calculators.ICalculator.Divide
+```
+
 ## Software Artifacts
 
 NReq recognizes four kinds of software artifacts. Artifacts can be positive or negative, and they can be visible or invisible:
@@ -176,12 +246,10 @@ I worked at another company that annotated unit tests with requirement attribute
 ## Future Work
 
 - Calculate requirements coverage
-- Generate reports, e.g. Markdown.
 - Strip annotations from release
 - Add analyzers. For example, warn of unimplemented requirements or unmitigated risks.
 - When tests fail, make note of associated requirements or risks.
 - Requirement tree
-- Publish NuGet package
  
 ## Non goals
 
